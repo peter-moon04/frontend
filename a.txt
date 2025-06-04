@@ -27,3 +27,9 @@ git branch -d 이름 - 브랜치를 삭제하는 명령어
 pr: pull request
 
 git stash
+
+git restore --source 커밋아이디 파일명 - 특정 시점으로 파일을 복구
+
+git revert - 특정 커밋을 취소하는 명령어
+
+git reset - 과거로 되돌리는 명령어
