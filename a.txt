@@ -25,3 +25,5 @@ git merge 이름 - 브랜치와 다른 브랜치를 머지하기 위한 명령�
 git branch -d 이름 - 브랜치를 삭제하는 명령어
 
 pr: pull request
+
+git stash
