@@ -6,7 +6,7 @@ git add . - 변경된 모든 파일들이 전부 스테이징 아레아에 올�
 
 git restore --staged 파일명 - 스테이징 아레아에 올라가 있는 파일을 빼는 명령어
 
-git commit -m "첫번째 커밍" - 커밋을 위한 명령어
+git commit -m "이름" - 커밋을 위한 명령어
 
 git status - rlt tkdxofmf qhrldnlgks audfuddj
 
@@ -30,6 +30,6 @@ git stash
 
 git restore --source 커밋아이디 파일명 - 특정 시점으로 파일을 복구
 
-git revert - 특정 커밋을 취소하는 명령어
+git revert 커밋아이디 - 특정 커밋을 취소하는 명령어
 
-git reset - 과거로 되돌리는 명령어
+git reset  커밋아이디 - 과거로 되돌리는 명령어
