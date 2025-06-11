@@ -34,7 +34,7 @@ switch (a) {
         break;
     case c:
         console.log('a와 c는 같습니다');
-        break;
+        break; //switch문은 break가 없으면 다음 case로 넘어감 그래서 멈추기위한 입력
     default:
         console.log('a와 b, c 모두 다릅니다');
 }

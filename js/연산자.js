@@ -29,3 +29,5 @@ console.log('e--', e); // 1, e는 2에서 1 감소했다
 console.log('++e', ++e); // 2, e는 1에서 1 증가했다
 console.log('--e', --e); // 1, e는 2에서 1 감소했다
 
+//나머지 연산
+console.log(5 % 2); // 1, 5를 2로 나눈 나머지

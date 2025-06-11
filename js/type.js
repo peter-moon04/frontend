@@ -22,3 +22,6 @@ console.log('g타입', typeof g); // number, NaN은 숫자 타입으로 취급�
 
 const h = Infinity
 console.log('h타입', typeof h); // number, Infinity는 숫자 타입으로 취급됨
+
+const i = {};
+console.log('i타입', typeof i); // object, 객체 타입
