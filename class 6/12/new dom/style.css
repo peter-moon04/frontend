@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-color: lightgray;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    background-color: beige;
+    padding: 10px;
+    border-radius: 5px;
+}
