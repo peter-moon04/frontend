@@ -73,3 +73,20 @@ const nonsortarray = [3, 2, 5, 1, 4];
 const sortarray = nonsortarray.sort();
 const realsorarray = nonsortarray.sort((a, b) => a - b); //오름차순 정렬
 console.log(sortarray);
+
+//value of arrat
+for (const data of array) {
+    console.log(data);
+}
+
+//forEach 배열의 각 요소에 함수를 적용 (data, 순서)
+array.forEach((data, index) => {
+    console.log(data, index);
+});
+
+//map
+const new2array = array.map((data, index) => {
+    console.log(data, index);
+    return data * 2;
+});
+console.log(new2array);
