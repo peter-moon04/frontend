@@ -13,3 +13,16 @@ const arrowfunction = (x, y) => {
 }
 
 console.log(arrowfunction(a, b));
+
+//비동기함수
+function wait(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function run() {
+    console.log('1초 대기...')
+    await wait(1000);
+    console.log('끝')
+
+}
+run()
